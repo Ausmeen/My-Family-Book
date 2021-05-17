@@ -1,0 +1,9 @@
+var i=0;
+function family(){
+  document.getElementById("one").innerHTML=names[i];
+  document.getElementById("family_img").src=images[i];
+  i++;
+  if(i==7){
+    i=0;
+  }}
+ 
